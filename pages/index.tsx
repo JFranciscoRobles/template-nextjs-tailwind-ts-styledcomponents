@@ -10,9 +10,9 @@ export default function Home() {
   );
 }
 
-interface SubTitleProps {
+type SubTitleProps = {
   $active: boolean;
-}
+};
 
 const Container = tw.div`
   bg-gray-50
